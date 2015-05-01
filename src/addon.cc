@@ -4,7 +4,6 @@
 
 extern "C" {
   void InitAll(Handle<Object> exports) {
-    HandleScope scope;
     NodeSvm::Init(exports);
   }
 }
